@@ -1,0 +1,109 @@
+:root {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #217ee7;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 0 1px lightgray;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+main {
+    padding: 0 15px;
+}
+
+section {
+    box-shadow: 0 0 0 1px lightgray;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px auto;
+    max-width: 560px;
+}
+
+section .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+section .fields-container {
+    display: flex;
+    flex-direction: column;
+}
+
+section .fields-container .fields-addition legend,
+section .fields-container .listbox .listbox-heading {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+section .fields-container .fields-addition {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+section .fields-container .fields-addition .group {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .fields-container .fields-addition .group input {
+    max-width: 75%;
+    width: 100%;
+}
+
+section .fields-container .fields-addition .group button {
+    width: 25%;
+    margin-left: 15px;
+}
+
+section .fields-container .other-content-wrapper {
+    display: flex;
+}
+
+section .fields-container .other-content-wrapper .listbox {
+    width: 75%;
+    height: 100%;
+}
+
+section .fields-container .other-content-wrapper .listbox .container {
+    min-height: 450px;
+    padding: 15px;
+    box-shadow: 0 0 0 1px lightgray;
+    border-radius: 5px;
+}
+
+section .fields-container .other-content-wrapper .listbox .container p:not(:first-child) {
+    margin-top: 5px;
+}
+
+section .fields-container .other-content-wrapper .buttons-group {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+section .fields-container .other-content-wrapper .buttons-group button:not(:first-child) {
+    margin-top: 15px;
+}

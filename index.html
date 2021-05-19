@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Adding & Sorting Data with JS</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1 class="section-heading">Test</h1>
+            <div class="fields-container">
+                <fieldset class="fields-addition">
+                    <legend>Name / Value Pair</legend>
+                    <div class="group">
+                        <input type="text" placeholder="Name=Value" id="pair-input"><button id="add-field">+ Add</button>
+                    </div>				
+                </fieldset>
+                <div class="other-content-wrapper">
+                    <div class="listbox">
+                        <h3 class="listbox-heading">Name / Value Pair</h3>
+                        <div class="container">
+                            
+                        </div>
+                    </div>
+                    <div class="buttons-group">
+                        <button id="sort-by-name">Sort by Name</button>
+                        <button id="sort-by-value">Sort by Value</button>
+                        <button id="clear-listbox">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>   
+    <script src="js.js"></script>
+</body>
+</html>
